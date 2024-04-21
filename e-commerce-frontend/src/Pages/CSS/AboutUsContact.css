@@ -1,0 +1,64 @@
+.about-us-contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  .about-us,
+  .contact {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label,
+  input,
+  textarea,
+  button {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #00050a;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
